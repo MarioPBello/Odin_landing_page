@@ -1,17 +1,29 @@
+body{
+
+
+    margin: 0;
+}
+
+
+
 .top_page {
 
 display:flex;
 background-color:#1F2937;
+flex-direction: column;
+padding: 30px;
+gap: 60px; 
 
 
 
 }
 
-#main_hero {
+.main_hero {
 
      font-size: 48px;
      font-weight:bolder;
      color: #F9FAF8;
+    
 
 
 
@@ -22,6 +34,17 @@ background-color:#1F2937;
 
        font-size: 18px;
         color: #E5E7EB;
+        
+
+
+}
+
+
+.header_links {
+
+display: flex;
+gap:60px;
+
 
 }
 
@@ -33,5 +56,57 @@ background-color:#1F2937;
 
 
 }
+
+.logo {
+
+    font-size: 24px;
+     color: #F9FAF8;
+     font-family: cursive;
+
+}
+
+
         
 
+.bodies {
+
+    
+    display: flex;
+    padding: 30px 20px;
+    gap: 40px; 
+    justify-content:space-between;
+    margin-left: 5em;
+    margin-right: 10em;
+   
+
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: 5em; 
+    margin-right: 10em;
+    padding: 20px;
+    
+   
+   
+    
+}
+
+.hero button {
+
+    background-color: #3882F6;
+    color:white;
+    font-size: 20px;
+    border: 20px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    
+    
+
+    
+
+}
