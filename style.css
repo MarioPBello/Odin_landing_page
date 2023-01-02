@@ -12,7 +12,6 @@ body{
 display:flex;
 background-color:#1F2937;
 flex-direction: column;
-padding: 30px;
 gap: 60px; 
 
 
@@ -246,4 +245,20 @@ button {
     padding-right: 15px;
     
     
+}
+
+.footer {
+
+
+
+    display: flex;
+    padding: 40px;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.foot {
+
+    color: white;
+    font-size: 20px;
 }
